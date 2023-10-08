@@ -1,0 +1,60 @@
+.top-bar {
+  width: 100%;
+  height: 10%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.middle {
+  height: 90%;
+  display: grid;
+  grid-template-columns: 15% 30% 10% 30% 15%;
+  border-top: 1px solid black;
+  text-align: center;
+}
+
+.middle > div {
+  border: 1px solid black;
+}
+
+.from-selector {
+  border-left: 0px;
+}
+
+.to-selector {
+  border-right: 0px;
+}
+
+textarea {
+  margin: 3% auto;
+  height: 94%;
+  width: 90%;
+  background-color: aliceblue;
+  resize: none;
+}
+
+.convert-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.convert-button {
+  background-color: #6488ea;
+  padding: 5px;
+  border: 2px solid black;
+  border-radius: 15%;
+  cursor: pointer;
+}
+
+.convert-button:hover{
+  background-color: aliceblue;
+  color: #6488ea
+}
+
+.error-resp{
+  background-color: #ffcccc;
+}
